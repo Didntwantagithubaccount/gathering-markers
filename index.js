@@ -86,7 +86,7 @@ module.exports = function GatheringMarkers(mod) {
         })
     }
     
-    mod.command.add('gathering', (p1)=> {
+    mod.command.add('gath', (p1)=> {
         if (p1) p1 = p1.toLowerCase();
         if (p1 == null) {
             enabled = !enabled;
