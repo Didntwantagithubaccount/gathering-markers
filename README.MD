@@ -14,7 +14,7 @@ Spawn item markers on specific gathering nodes and hides undesireable nodes.
 - **markenabled** - Enable item spawning
 - **messager** - Enable proxy messages
 - **alerts** - Enable system notices
-- **whiteList** - Gathering nodes not in this list will be hidden
+- **blackList** - Gathering nodes in this list will be hidden
 - **markList** - Gathering nodes in this list will spawn item markers
 
 | Collection IDs |
@@ -38,6 +38,4 @@ Spawn item markers on specific gathering nodes and hides undesireable nodes.
 | 205 - Opal Essence |
 | 206 - Obsidian Essence |
 
----
-
-[Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PXRFYB39SQP4A&lc=US&item_name=teralove&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted).
+sorry handouts are bad
