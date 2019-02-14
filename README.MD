@@ -2,12 +2,12 @@
 Spawn item markers on specific gathering nodes and hides undesireable nodes.
 
 # Commands 
-- **gathering** - toggle module off/on (DEFAULT: ON)
-- **gathering on** - turn on module
-- **gathering off** - turn off module
-- **gathering marker** - toggle item markers (DEFAULT: ON)
-- **gathering messager** - toggle proxy messages (DEFAULT: OFF)
-- **gathering alert** - toggle system notices (DEFAULT: OFF)
+- **gath** - toggle module off/on (DEFAULT: ON)
+- **gath on** - turn on module
+- **gath** - turn off module
+- **gath marker** - toggle item markers (DEFAULT: ON)
+- **gath messager** - toggle proxy messages (DEFAULT: OFF)
+- **gath alert** - toggle system notices (DEFAULT: OFF)
 
 # Config
 - **enabled** - Turn module on during startup
