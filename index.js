@@ -1,4 +1,3 @@
-'use strict'
 
 module.exports = function GatheringMarkers(mod) {
     const config = require('./config.json');
@@ -9,7 +8,7 @@ module.exports = function GatheringMarkers(mod) {
     messager = false,
     alerts = false,
     Item_ID = 98260,
-    whiteList = [],
+    blackList = [],
     markList = [],
     marks = [],
     idMod = 2n;
@@ -20,7 +19,7 @@ module.exports = function GatheringMarkers(mod) {
     
     mod.hook('S_SPAWN_COLLECTION', 4, (event) => {
         if (!enabled || !active) return;
-        if (!whiteList.includes(event.id)) return false;
+        if (blackList.includes(event.id)) return false;
 
         if (markenabled) {   
             if (markList.includes(event.id) && !marks.includes(event.gameId.toString())) {
@@ -49,7 +48,7 @@ module.exports = function GatheringMarkers(mod) {
 
 	function configInit() {
         if (config) {
-            ({enabled,markenabled,messager,alerts,Item_ID,whiteList,markList} = config)
+            ({enabled,markenabled,messager,alerts,Item_ID,blackList,markList} = config)
         } else {
             mod.command.message("Error: Unable to load config.json - Using default values for now");
         }
