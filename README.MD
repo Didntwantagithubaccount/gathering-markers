@@ -4,7 +4,7 @@ Spawn item markers on specific gathering nodes and hides undesireable nodes.
 # Commands 
 - **gath** - toggle module off/on (DEFAULT: ON)
 - **gath on** - turn on module
-- **gath** - turn off module
+- **gath off** - turn off module
 - **gath marker** - toggle item markers (DEFAULT: ON)
 - **gath messager** - toggle proxy messages (DEFAULT: OFF)
 - **gath alert** - toggle system notices (DEFAULT: OFF)
